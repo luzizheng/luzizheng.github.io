@@ -344,6 +344,32 @@
 
     
 </div>
+
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<center><p>up翻句啦</p></center>
+<div id="vcommentscontainer">
+    <div id="vcomments"></div>
+</div>
+
+<style>
+#vcommentscontainer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: '3Lh0GKyEIALmiL1dn2R7FFdX-gzGzoHsz',
+		appKey: 'EXbbH3b44RhWQUBMXvJ11UMp'
+	})
+</script>
+<script>
+	var pb = document.getElementsByClassName("vpower txt-right")
+	pb[0].style.visibility='hidden'
+</script>
 		
 <link rel="stylesheet" href="/css/food.css">
 
