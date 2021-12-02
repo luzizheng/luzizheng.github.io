@@ -11665,7 +11665,7 @@ figure.highlight .section {
   display: unset;
 }
 article.article .pin-icon {
-  color: #3273dc;
+  color: #156774;
   font-size: 1.6rem;
   margin-right: 20px;
   transform: rotate(30deg);
@@ -11855,7 +11855,7 @@ hr {
   color: #fff;
 }
 .level3 {
-  background-color: #3273dc;
+  background-color: #156774;
   color: #fff;
 }
 #index_hot_div {
@@ -11939,35 +11939,35 @@ hr {
 }
 .night .menu-list a:hover {
   background-color: #7a7a7a;
-  color: #3273dc;
+  color: #156774;
 }
 .night .menu-list a {
   color: #c0c0c0;
 }
 .night .level a:hover {
-  color: #3273dc !important;
+  color: #156774 !important;
 }
 .night .level .is-rounded:hover {
   color: #fff !important;
 }
 .night .level .level-item.is-marginless:hover {
   background-color: #151313;
-  color: #3273dc;
+  color: #156774;
 }
 .night .level .level-item.is-link:hover {
   color: #fff;
 }
 .night .navbar-menu a:hover {
-  color: #3273dc;
+  color: #156774;
 }
 .night .post-copyright {
   background-color: #151313;
 }
 .night #back-to-top:hover {
-  color: #3273dc;
+  color: #156774;
 }
 .night .tags.has-addons .tag:hover {
-  color: #3273dc;
+  color: #156774;
 }
 .night input {
   background-color: #000;
@@ -11980,7 +11980,7 @@ hr {
   color: #c0c0c0 !important;
 }
 .night .has-link-black-ter {
-  color: #3273dc !important;
+  color: #156774 !important;
 }
 .night .has-link-grey.-link {
   color: #c0c0c0;
@@ -12002,7 +12002,7 @@ hr {
   color: #c0c0c0 !important;
 }
 .night .has-text-black-ter:hover {
-  color: #3273dc !important;
+  color: #156774 !important;
 }
 .night .navbar-item,
 .night .navbar-link {
@@ -12012,7 +12012,7 @@ hr {
   color: #c0c0c0;
 }
 .night .level-item.tag.is-danger {
-  background-color: #3273dc !important;
+  background-color: #156774 !important;
   color: #c0c0c0;
 }
 .night .friend-title-item {
@@ -12044,10 +12044,10 @@ hr {
   color: #c0c0c0;
 }
 .night .has-link-grey.-link:hover {
-  color: #3273dc !important;
+  color: #156774 !important;
 }
 .night .has-link-black-ter:hover {
-  color: #3273dc !important;
+  color: #156774 !important;
 }
 .night .timeline .media:last-child:after {
   background-color: #151313;
@@ -12193,7 +12193,7 @@ hr {
   color: #c0c0c0;
 }
 .night .menu-list .is-current {
-  color: #3273dc;
+  color: #156774;
   background: #7a7a7a;
   filter: unset !important;
 }
@@ -12221,18 +12221,18 @@ hr {
 .night a.navbar-item.is-active,
 .night .navbar-link.is-active {
   background-color: unset;
-  color: #3273dc;
+  color: #156774;
 }
 .night .menu-list a.is-active {
   background-color: #7a7a7a;
-  color: #3273dc;
+  color: #156774;
 }
 .night .recommend-area,
 .night .article-licensing {
   background: #000;
 }
 .night .article-licensing .licensing-title a {
-  color: #3273dc !important;
+  color: #156774 !important;
 }
 .night .content h1,
 .night .content h2,
@@ -12395,7 +12395,7 @@ body {
   position: absolute;
   left: -1.9%;
   top: 0;
-  color: #3273dc;
+  color: #156774;
   font-style: italic;
   font-weight: bold;
 }
