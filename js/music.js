@@ -16,7 +16,7 @@ $.getJSON("../json_data/music.json", function (data) {
             var id = Number(this.id);
             playMusic(musicJsons[id]);
             $('#musiclist #' + lastIndex).css('color', '#888888');
-            $(this).css('color', '#156774');
+            $(this).css('color', '#3273dc');
             lastIndex = id;
             mePlayerMethod.play();
         });
@@ -25,7 +25,7 @@ $.getJSON("../json_data/music.json", function (data) {
     }
 
     var index = Math.floor(Math.random() * musicJsons.length);
-    $('#musiclist #' + index).css('color', '#156774');
+    $('#musiclist #' + index).css('color', '#3273dc');
     lastIndex = index;
     playMusic(musicJsons[index]);
 });
@@ -44,7 +44,7 @@ function playMusic(data, playendcallback) {
         }
         playMusic(musicJsons[index]);
         $('#musiclist #' + lastIndex).css('color', '#888888');
-        $('#musiclist #' + index).css('color', '#156774');
+        $('#musiclist #' + index).css('color', '#3273dc');
         lastIndex = index;
         mePlayerMethod.play();
     });
@@ -90,5 +90,5 @@ function playVideo(data,id) {
         }
     });
     $('#video-list #' + lastIndex).css('color', '#888888');
-    $('#video-list #' + id).css('color', '#156774');
+    $('#video-list #' + id).css('color', '#3273dc');
 }
